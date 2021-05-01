@@ -2,6 +2,7 @@
 <html lang="en">
 
 <!-- </head> -->
+
 <head>
     <meta charset="utf-8">
     <title>Perfect Diamond</title>
@@ -26,205 +27,203 @@
 
 <body>
 
-        <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="/">
-                <!-- need to add on 25 the home page -->
-                <img src="../static/images/logo1.png" alt="logo" style="width:10%;height:10%;">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
-                aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-    
-                <span class="navbar-toggler-icon"></span>
-            </button>
-                    <div class="collapse navbar-collapse" id="navbarColor01">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">
+            <!-- need to add on 25 the home page -->
+            <img src="../static/images/logo1.png" alt="logo" style="width:10%;height:10%;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+            aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav mr-auto">
             </ul>
         </div>
-            <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/dashboard">Visualizations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/ml">Predictor</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/table">Data</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/resources">Resources</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about">About Us</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/dashboard">Visualizations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/ml">Predictor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/table">Data</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/resources">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <hr style="color:lightgray; border-width: 3px;">
-    <div class= "container-fluid">
+    <div class="container-fluid">
         <div class="row text-center" style="margin-top:1%">
-            <div class = "col-md-12">
+            <div class="col-md-12">
                 <h6 class="display-4"><b>Predictor</b></h6>
                 <br>
                 <br>
-                <h4>Use the filters below to see predict the <b>cost</b> or <b>price</b> before tax for your <b>Perfect Diamond!</b>
-                Use the mouse to click on <b>Diamond Cost</b>
-                <br>
-                <br>
+                <h4>Use the filters below to see predict the <b>cost</b> or <b>price</b> before tax for your <b>Perfect
+                        Diamond!</b>
+                    Use the mouse to click on <b>Diamond Cost</b>
+                    <br>
+                    <br>
                 </h4>
             </div>
         </div>
-    
-    <div class="container">
-        <div class="row" style="margin: top 10px;">
-            <!-- <div class="col-sm-2"></div> -->
-            <div class="col-md-8" style="margin-top:initial;">
-                <blockquote class="blockquote" style="text-align:justify;">
-                    <p class="mb-0">
-                        <b>How to choose your perfect diamond?</b>
-                        <br>
-                        <!-- <br> -->
-                        <b>- Carat Weight:</b> These are the sizes: 0.25 - 0.5 - 0.75 - 1 - 1.5 - 2 - 3 - 4 - 5.
-                        <br>
-                        <b>1. "Buy shy"</b> Always round down, if you're looking for 3.00 carat get 2.90 carat.
-                        <br>
-                        <b>2. "Splurge on cut"</b> This is the most important factory because it maximizes sparkle.
-                        <br>
-                        <b>3. "Ring size"</b> The smaller the finger the larger the diamond.
-                        <br>
-                        <br>
-                        <b>- Cut:</b> Ranks from: Poor - Fair - Good - Very Good - Ideal - Premium - 
-                        <br>
-                        <br>
-                        <b>- Color:</b> The Gemological Institute of America (GIA) color scale is the industry standard 
-                        for diamond grading. 
-                        The GIA diamond color grades range from D (colorless) to Z (light yellow or brown). 
-                        We are only considering coloring "D to M" only for our predictions based on popularity.
-                        <br>
-                        <br>
-                        <b>- Clarity:</b> 11 grades, ranking from lowest to best in the following order: ,I3, I2, I1, S3, SI2,SI1, 
-                        VS2, VS1, VVS2, VVS1, IF, FL.
-                        <br>
-                        <br>
-                        <b>- Table:</b> Is the flat facet on its surface — the large, flat surface facet that you can see when 
-                        you look at the diamond from above.
-                        <br>
-                        <br>
-                        <b>- Total Depth:</b> Is the diamond’s table-to-culet depth. On a round brilliant, 
-                        it’s expressed as a percentage of the diamond’s average girdle diameter.
-                        <br>
-                        <br>
-                        <b>- Length (mm), Width (mm), Depth (mm):</b> This one... It's all on you!!!
-                        <br>
-                    </p>
-                </blockquote>
-            </div>
 
-        <div class="card border-secondary mb-3" style="max-width: 20rem;">
-            <div class="card-header">Filters</div>
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <div class="form-group">
-                                <label class="col-form-label" for="carat">Carat</label>
-                                <input type="text" class="form-control" value="0.25" id="carat">
+        <div class="container">
+            <div class="row" style="margin: top 10px;">
+                <!-- <div class="col-sm-2"></div> -->
+                <div class="col-md-8" style="margin-top:initial;">
+                    <blockquote class="blockquote" style="text-align:justify;">
+                        <p class="mb-0">
+                            <b>How to choose your perfect diamond?</b>
+                            <br>
+                            <!-- <br> -->
+                            <b>- Carat Weight:</b> These are the sizes: 0.25 - 0.5 - 0.75 - 1 - 1.5 - 2 - 3 - 4 - 5.
+                            <br>
+                            <b>1. "Buy shy"</b> Always round down, if you're looking for 3.00 carat get 2.90 carat.
+                            <br>
+                            <b>2. "Splurge on cut"</b> This is the most important factory because it maximizes sparkle.
+                            <br>
+                            <b>3. "Ring size"</b> The smaller the finger the larger the diamond.
+                            <br>
+                            <br>
+                            <b>- Cut:</b> Ranks from: Poor - Fair - Good - Very Good - Ideal - Premium -
+                            <br>
+                            <br>
+                            <b>- Color:</b> The Gemological Institute of America (GIA) color scale is the industry
+                            standard
+                            for diamond grading.
+                            The GIA diamond color grades range from D (colorless) to Z (light yellow or brown).
+                            We are only considering coloring "D to M" only for our predictions based on popularity.
+                            <br>
+                            <br>
+                            <b>- Clarity:</b> 11 grades, ranking from lowest to best in the following order: ,I3, I2,
+                            I1, S3, SI2,SI1,
+                            VS2, VS1, VVS2, VVS1, IF, FL.
+                            <br>
+                            <br>
+                            <b>- Table:</b> Is the flat facet on its surface — the large, flat surface facet that you
+                            can see when
+                            you look at the diamond from above.
+                            <br>
+                            <br>
+                            <b>- Total Depth:</b> Is the diamond’s table-to-culet depth. On a round brilliant,
+                            it’s expressed as a percentage of the diamond’s average girdle diameter.
+                            <br>
+                            <br>
+                            <b>- Length (mm), Width (mm), Depth (mm):</b> This one... It's all on you!!!
+                            <br>
+                        </p>
+                    </blockquote>
+                </div>
+
+                <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                    <div class="card-header">Filters</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <div class="form-group">
+                                        <label class="col-form-label" for="carat">Carat</label>
+                                        <input type="text" class="form-control" value="0.25" id="carat">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-form-label" for="cut">Cut</label></br>
+                                    <select id="cut">
+                                        <option value="1">Ideal</option>
+                                        <option value="2">Premium</option>
+                                        <option value="3">Very Good</option>
+                                        <option value="4">Good</option>
+                                        <option value="5">Fair</option>
+                                        <option value="6">Poor</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-form-label" for="color">Color</label></br>
+                                    <select id="color">
+                                        <option value="1">D</option>
+                                        <option value="2">E</option>
+                                        <option value="3">F</option>
+                                        <option value="4">G</option>
+                                        <option value="5">H</option>
+                                        <option value="6">I</option>
+                                        <option value="7">J</option>
+                                        <option value="8">K</option>
+                                        <option value="9">L</option>
+                                        <option value="10">M</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-form-label" for="clarity">Clarity</label></br>
+                                    <select id="clarity">
+                                        <option value="1">FL</option>
+                                        <option value="2">IF</option>
+                                        <option value="3">VVS1</option>
+                                        <option value="4">VVS2</option>
+                                        <option value="5">VS1</option>
+                                        <option value="6">VS2</option>
+                                        <option value="7">SI1</option>
+                                        <option value="8">SI2</option>
+                                        <option value="9">SI3</option>
+                                        <option value="10">I1</option>
+                                        <option value="11">I2</option>
+                                        <option value="12">I3</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-form-label" for="tdepth">Total Depth</label>
+                                    <input type="text" class="form-control" value="60.00" id="tdepth">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-form-label" for="table">Table</label>
+                                    <input type="text" class="form-control" value="60.00" id="table">
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-form-label" for="length">Length (mm)</label>
+                                    <input type="text" class="form-control" value="4.00" id="length">
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-form-label" for="width">Width (mm)</label>
+                                    <input type="text" class="form-control" value="4.00" id="width">
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-form-label" for="depth">Depth (mm)</label>
+                                    <input type="text" class="form-control" value="2.00" id="depth">
+                                </div>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label class="col-form-label" for="cut">Cut</label></br>
-                            <select id="cut">
-                                <option value="1">Ideal</option>
-                                <option value="2">Premium</option>
-                                <option value="3">Very Good</option>
-                                <option value="4">Good</option>
-                                <option value="5">Fair</option>
-                                <option value="6">Poor</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-form-label" for="color">Color</label></br>
-                            <select id="color">
-                                <option value="1">D</option>
-                                <option value="2">E</option>
-                                <option value="3">F</option>
-                                <option value="4">G</option>
-                                <option value="5">H</option>
-                                <option value="6">I</option>
-                                <option value="7">J</option>
-                                <option value="8">K</option>
-                                <option value="9">L</option>
-                                <option value="10">M</option>
-                            </select>
-                        </div>
-                       
-                        <div class="form-group">
-                            <label class="col-form-label" for="clarity">Clarity</label></br>
-                            <select id="clarity">
-                                <option value="1">FL</option>
-                                <option value="2">IF</option>
-                                <option value="3">VVS1</option>
-                                <option value="4">VVS2</option>
-                                <option value="5">VS1</option>
-                                <option value="6">VS2</option>
-                                <option value="7">SI1</option>
-                                <option value="8">SI2</option>
-                                <option value="9">SI3</option>
-                                <option value="10">I1</option>
-                                <option value="11">I2</option>
-                                <option value="12">I3</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-form-label" for="tdepth">Total Depth</label>
-                            <input type="text" class="form-control" value="60.00" id="tdepth">
-                        </div>
-                    </div>
-        
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label class="col-form-label" for="table">Table</label>
-                            <input type="text" class="form-control" value="60.00" id="table">
-                        </div>
-                        <div class="form-group">
-                                <label class="col-form-label" for="length">Length (mm)</label>
-                                <input type="text" class="form-control" value="4.00" id="length">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button type="button" class="btn btn-secondary" id="filter">Diamond Cost</button>
                             </div>
-                        <div class="form-group">
-                            <label class="col-form-label" for="width">Width (mm)</label>
-                            <input type="text" class="form-control" value="4.00" id="width">
-                        </div>
-                        <div class="form-group">
-                            <label class="col-form-label" for="depth">Depth (mm)</label>
-                            <input type="text" class="form-control" value="2.00" id="depth">
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <button type="button" class="btn btn-secondary" id="filter">Diamond Cost</button>
-                    </div>
-                </div>
             </div>
+            <hr>
         </div>
-        </div>
-    <hr style="color:lightgray; border-width: 3px;">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <h1 id="output"></h1>
-            </div>
-        </div>
+
+        <div class="col-sm-2"></div>
         <div id="footer" style="margin: top 1px;">
             <p>Thank you for choosing us to guide you through this special ocassion!</p>
         </div>
-    </div>
-
 </body>
 
 </html>
