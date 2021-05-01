@@ -1,5 +1,5 @@
   .divtable{
-    text-align:center;
+    text-align:justify;
     background-color: white;
     z-index:1;
   }
@@ -30,7 +30,7 @@
       opacity: 0.5;
   }
   
-  .table-success,.table-success>td,.table-success>th{
+  /* .table-success,.table-success>td,.table-success>th{
     background-color:white}
   
   .table-success tbody+tbody,.table-success td,.table-success th,.table-success thead th{
@@ -44,9 +44,9 @@
   
   .table-success,.table-success>td,.table-success>th{
     background-color:#1ED760
-  }
+  } */
   
-  .line {
+  /* .line {
       fill: none;
       stroke-width: 2px;
     }
@@ -94,8 +94,8 @@
   
   .ufo-form {
     margin-top: 50px;
-  }
-   */
+  } */
+  
   .filters .panel-body {
     padding: 0;
   }
@@ -103,7 +103,7 @@
   .filters {
     margin-top: 10px;
   }
-   */
+  
   select {
     display: block;
     width: 100%;
@@ -113,14 +113,14 @@
   }
   
   #table-area th {
-    text-align: center;
+    text-align: justify;
   }
   
-  #table-area th:first-child,
+  /* #table-area th:first-child,
   #table-area th:nth-child(2),
   #table-area th:nth-child(6) {
     min-width: 70px;
-  }
+  } */
   
   .loader {
     margin-top: 50px;
@@ -131,25 +131,25 @@
   }
   
   /* input placeholder color changes */
-  .form-control::-webkit-input-placeholder {
+  /* .form-control::-webkit-input-placeholder { */
     /* Chrome/Opera/Safari */
-    color: #8e979f;
-  }
+    /* color: #8e979f; */
+  /* } */
   
-  .form-control::-moz-placeholder {
+  /* .form-control::-moz-placeholder { */
     /* Firefox 19+ */
-    color: #8e979f;
-  }
+    /* color: #8e979f; */
+  /* } */
   
-  .form-control:-ms-input-placeholder {
+  /* .form-control:-ms-input-placeholder { */
     /* IE 10+ */
-    color: #8e979f;
-  }
+    /* color: #8e979f; */
+  /* } */
   
-  .form-control:-moz-placeholder {
+  /* .form-control:-moz-placeholder { */
     /* Firefox 18- */
-    color: #8e979f;
-  }
+    /* color: #8e979f; */
+  /* } */
   
   /* media queries which will only be activated at specific screen sizes */
   @media (max-width: 800px) {
@@ -161,9 +161,10 @@
   @media (max-width: 500px) {
     #table thead {
       display: none;
+      /* text-align: justify; */
     }
   
-    #table tr td:first-child {
+    /* #table tr td:first-child {
       font-size: 1.8em;
       font-weight: bold;
       background: #1b3146;
@@ -180,25 +181,24 @@
       margin-top: 20px;
       content: " ";
       background: aliceblue;
-    }
+    } */
   
-    #table td {
+    /* #table td {
       font-size: 1.25em;
-    }
+    } */
   
     #table tbody td {
       display: block;
-      text-align: center;
+      text-align: justify;
     }
   
     #table tbody td::before {
       display: block;
       font-size: 1.4em;
       font-weight: bold;
-      text-align: center;
+      text-align: justify;
       content: attr(data-th);
     }
-  }
   
   .center {
     display: block;
@@ -207,7 +207,7 @@
     width: 50%;
   }
   
-  .modal {
+  /* .modal {
     display: none;
     position: fixed; 
     padding-top: 50px;
@@ -228,7 +228,7 @@
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s
-  }
+  } */
   .close-btn {
     float: right; 
     color: lightgray; 
@@ -238,14 +238,14 @@
   .close-btn:hover {
     color: darkgray;
   }
-  @-webkit-keyframes animatetop {
+  /* @-webkit-keyframes animatetop {
     from {top:-300px; opacity:0} 
     to {top:0; opacity:1}
   }
   @keyframes animatetop {
     from {top:-300px; opacity:0}
     to {top:0; opacity:1}
-  }
+  } */
   
   /* .jumbotron {
     background-image: url("/static/images/skyline.png");
