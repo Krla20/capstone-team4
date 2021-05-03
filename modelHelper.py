@@ -19,5 +19,5 @@ class ModelHelper():
         X = np.array(input_pred)
         # preds = ada_load.predict_proba(X)
         preds_singular = ada_load.predict(X)
-        final = round(preds_singular[0], 2)
+        final = "{:,.2f}".format(preds_singular[0])
         return final
