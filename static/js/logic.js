@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    console.log("Page Loaded");
+    
 
     $("#filter").click(function() {
         makePredictions();
@@ -38,8 +38,7 @@ function makePredictions() {
         contentType: 'application/json;charset=UTF-8',
         data: JSON.stringify({ "data": payload }),
         success: function(returnedData) {
-            // print it
-            console.log(returnedData['prediction']);
+            
             $("#output").text("Your diamond should cost $" + returnedData['prediction']);
             
         },
